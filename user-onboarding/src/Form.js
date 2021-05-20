@@ -4,7 +4,13 @@ const Form = () => {
     
     return (
         <div>
-            Form is here
+            <form>
+                <input name='name' type='text'/>
+                <input name='email' type='email'/>
+                <input name='password' type='password'/>
+                <input/>
+                <input/>
+            </form>
         </div>
     )
 }
